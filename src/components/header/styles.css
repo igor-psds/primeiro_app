@@ -35,3 +35,9 @@ li:hover {
     width: 150px;
     height: auto;
 }
+
+@media(max-width: 768px) {
+    nav {
+        display: none;
+    }
+}

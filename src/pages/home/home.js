@@ -1,8 +1,9 @@
-import React, {lazy, Suspense} from "react";
+import React from "react";
 import Header from '../../components/header/header';
 import './styles.css';
 import Video from '../../assets/batman _trailer2_projeto.mp4'
 import Cards from "../../components/cards";
+import Footer from "../../components/footer/footer";
 
 function Home(){
 
@@ -27,6 +28,7 @@ function Home(){
                 </div>
             </div>
             <Cards />
+            <Footer />
         </>
     )
 }

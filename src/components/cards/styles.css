@@ -48,3 +48,10 @@
 .banner-3 {
     background-image: url('https://t.ctcdn.com.br/ea0zvh5wbzn9RRXnYKUOzh2mbiI=/1024x0/smart/i360687.jpeg');
 }
+
+@media(max-width: 768px) {
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}

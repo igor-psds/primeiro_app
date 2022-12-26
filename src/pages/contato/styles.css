@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.contato-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.contentContato {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 38%;
+}
+
+#contato-box {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid #fff;
+}
+
+#contato {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+@media(max-width: 768px) {
+    .contentContato {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 3%;
+    }
+    
+    #contato-box {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 3px solid #fff;
+    }
+}

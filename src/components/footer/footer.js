@@ -1,16 +1,17 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import './styles.css'
-import Logo from '../../assets/logo_batman_projeto3.png'
+import { Link } from "react-router-dom";
+import './styles.css';
+import Logo from '../../assets/logo_batman_projeto3.png';
 
-function Header(){
-    const navigate = useNavigate();
-
+function Footer(){
     return(
-        <header>
+        <footer>
             <img id="logo" src={Logo}/>
-            <nav>
-                <ul>
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: Igor Pova</span>
+
+            <nav className="footer-navigation">
+                <ul className="footer-list">
                     <Link style={{textDecoration: 'none'}} to={'/'}>
                         <li>Home</li>
                     </Link>
@@ -18,15 +19,15 @@ function Header(){
                         <li>Contato</li>
                     </Link>
                     <Link style={{textDecoration: 'none'}} to={'/fotos'}>
-                        <li>fotos</li>
+                        <li>Fotos</li>
                     </Link>
                     <Link style={{textDecoration: 'none'}} to={'/comentarios'}>
                         <li>Comentários</li>
                     </Link>
                 </ul>
             </nav>
-        </header>
+        </footer>
     )
 }
 
-export default Header;
+export default Footer;
