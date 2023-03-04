@@ -12,9 +12,9 @@ function Contato(){
                 <div className="contentContato">
                     <div id="contato-box">
                         <p id="contato">
-                            nome: Igor Pova<br />
-                            e-mail: xxxxx@email.com<br />
-                            numero: 00 00-000000000
+                            Nome: Igor Silva<br />
+                            e-mail: igorpsdsilva@gmail.com<br />
+                            Numero: 55 11 959643578
                         </p>
                     </div>
                 </div>
