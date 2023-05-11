@@ -11,11 +11,27 @@ function Contato(){
             <div className="contato-container">
                 <div className="contentContato">
                     <div id="contato-box">
-                        <p id="contato">
-                            Nome: Igor Silva<br />
-                            e-mail: igorpsdsilva@gmail.com<br />
-                            Numero: 55 11 959643578
-                        </p>
+                        <form className="contato-form"
+                            action="https://formspree.io/f/mayzyzkl"
+                            method="POST"
+                            id="form"
+                        >
+                            <h3>Entre em contato</h3>
+
+                            <fieldset>
+                                <input placeholder="Email" type="email" name="email" />
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Nome" type="name" name="name" />
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Telefone" type="phone" name="phone" />
+                            </fieldset>
+                            <fieldset>
+                                <textarea className="contato-textarea" placeholder="Escreva sua mensagem..." name="message"></textarea>
+                            </fieldset>
+                            <button type="submit">Enviar</button>
+                        </form>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@
 .foto {
     width: 100%;
     height: 300px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
     cursor: pointer;
@@ -33,26 +33,32 @@
 
 .imagem-1 {
     background-image: url('../../assets/teste_projeto.jpg');
+    background-position: center;
 }
 
 .imagem-2 {
     background-image: url('https://arthurtuoto.com/wp-content/uploads/2022/03/CAPA-930x620.jpg');
+    background-position: center;
 }
 
 .imagem-3 {
     background-image: url('https://tribunapr.uol.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG-970x550.jpeg');
+    background-position: center;
 }
 
 .imagem-4 {
     background-image: url('https://www.indiewire.com/wp-content/uploads/2021/08/Robert-Pattinson-Batman.jpeg?w=780');
+    background-position: center;
 }
 
 .imagem-5 {
     background-image: url('https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/the-batman-movie-review-2022/rev-1-TBM-01883r_High_Res_JPEG.jpeg');
+    background-position: right;
 }
 
 .imagem-6 {
     background-image: url('https://cinemacao.com/wp-content/uploads/2022/03/batman-2-1130x590.jpg');
+    background-position: center;
 }
 
 @media(max-width: 768px) {

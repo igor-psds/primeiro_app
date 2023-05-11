@@ -18,7 +18,7 @@ function Header(){
                         <li>Contato</li>
                     </Link>
                     <Link style={{textDecoration: 'none'}} to={'/fotos'}>
-                        <li>fotos</li>
+                        <li>Fotos</li>
                     </Link>
                     <Link style={{textDecoration: 'none'}} to={'/comentarios'}>
                         <li>Comentários</li>
